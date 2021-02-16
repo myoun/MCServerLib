@@ -27,20 +27,20 @@ class Setup:
 
     def downloadPaper(self):
         with open(self.jarname, "wb") as f:
-            print("페이퍼 버킷을 다운로드 중입니다...\n조금만 기다려 주세요.")
+            print("Downloading Paper Bukkit...")
             response = get(self.dowload_url)
             f.write(response.content)
-            print("다운로드가 끝났습니다.")
+            print("Download Finished")
 
     def makeBatch(self):
         with open("server.bat", "w") as f:
-            print("배치파일을 작성중입니다.")
+            print("Writing Batch File")
             f.write(
                 f"java -Xmx{self.xmx} -Xms{self.xms} -jar {self.jarname} nogui")
-            print("배치파일 작성이 끝났습니다.")
+            print("Writing Finished")
 
     def makeEula(self, boolean=True):
         with open("eula.txt", "w") as f:
-            print("Eula 파일을 작성중입니다.")
+            print("Writing Eula File")
             f.write("eula=true" if boolean else "eula=false")
-            print("Eula 파일 작성이 끝났습니다.")
+            print("Writing Finished")

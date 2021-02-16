@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="MCServerLib",  # Replace with your own username
-    version="0.0.1",
+    version="0.2.0",
     author="명이",
     author_email="aiden080605@gmail.com",
     description="Minecraft Server Setup Library",
