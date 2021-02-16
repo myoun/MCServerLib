@@ -3,6 +3,7 @@ MCServerLib
 
 MCServerLib is a Python library that helps build Minecraft servers.
 
+[한국어 README 바로가기](https://github.com/myoung2namur/MCServerLib/blob/master/docs/README-kr.md)
 # Installation
 
 ### From PyPi:
@@ -37,3 +38,4 @@ setup.makeBatch()
 
 # Make only Eula File
 setup.makeEula()
+```
