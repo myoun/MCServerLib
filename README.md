@@ -20,10 +20,9 @@ MCServerLib is a Python library that helps build Minecraft servers.
 ```py
 import MCServerLib as mcs
 
-properties = mcs.Prop.Properties()
-properties.properties['enable-command-block'] = 'true'
+setup = mcs.Server.Setup(version='1.16.5',xmx='1024M',xms='3G')
 
-setup = mcs.Setup.Setup(version='1.16.5',xmx='1024M',xms='3G',properties=properties)
+setup.properties['enable-command-block'] = 'true'
 
 # Setup Server Files
 

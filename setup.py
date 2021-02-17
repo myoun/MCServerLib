@@ -1,11 +1,11 @@
 import setuptools
 
-with open("README.md", "r") as fh:
+with open("README.md", "r", encoding='utf8') as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="MCServerLib",  # Replace with your own username
-    version="0.2.0",
+    version="0.2.5",
     author="명이",
     author_email="aiden080605@gmail.com",
     description="Minecraft Server Setup Library",

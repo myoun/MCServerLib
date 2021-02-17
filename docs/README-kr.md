@@ -19,10 +19,8 @@ MCServerLib은 마인크래프트 서버 세팅을 위한 파이썬 라이브러
 ```py
 import MCServerLib as mcs
 
-properties = mcs.Prop.Properties()
-properties.properties['enable-command-block'] = 'true'
-
-setup = mcs.Setup.Setup(version='1.16.5',xmx='1024M',xms='3G',properties=properties)
+setup = mcs.Setup.Setup(version='1.16.5',xmx='1024M',xms='3G')
+setup.properties['enable-command-block'] = 'true'
 
 # 서버 파일 세팅
 
@@ -37,3 +35,5 @@ setup.makeBatch()
 
 # EULA 파일만 작성
 setup.makeEula()
+
+```

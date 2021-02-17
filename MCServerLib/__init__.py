@@ -2,13 +2,13 @@ import inspect
 import os
 import sys
 
-__version__ = '0.2.0'
+__version__ = '0.2.5'
 
 real_path = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
 sys.path.append(real_path)
 
 try:
-    from MCServerLib import Setup
+    from MCServerLib import Server
 except ImportError as e:
     print(e, " 추가할 수 없습니다.")
     exit(1)
