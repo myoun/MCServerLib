@@ -12,7 +12,7 @@ MCServerLib은 마인크래프트 서버 세팅을 위한 파이썬 라이브러
 
 ### 깃허브 레포에서:
 
-`python -m pip install git+https://github.com/myoung2namur/MCServerLib`
+`python -m pip install git+https://github.com/myoun/MCServerLib`
 
 # 사용법
 
