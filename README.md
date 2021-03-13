@@ -3,7 +3,7 @@ MCServerLib
 
 MCServerLib is a Python library that helps build Minecraft servers.
 
-[한국어 README 바로가기](https://github.com/myoung2namur/MCServerLib/blob/master/docs/README-kr.md)
+[한국어 README 바로가기](https://github.com/myoun/MCServerLib/blob/master/docs/README-kr.md)
 # Installation
 
 ### From PyPi:
@@ -13,7 +13,7 @@ MCServerLib is a Python library that helps build Minecraft servers.
 
 ### From Repo:
 
-`python -m pip install git+https://github.com/myoung2namur/MCServerLib`
+`python -m pip install git+https://github.com/myoun/MCServerLib`
 
 # Usage
 
